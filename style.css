@@ -1,0 +1,226 @@
+body {
+    background-color: rgb(13, 13, 70);
+    z-index: 0;
+    display: wrap;
+    flex-direction: row;  
+}
+.main {
+    width:100%;
+    margin-left: 4%;
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+div img {
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+.message_box {
+    width: 195px;
+    height: 65px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    position: relative;
+    float: right;
+    right: 2%;
+    top: -79px;
+    padding-top: 5px;
+}
+
+
+.timeing_box {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 90%;
+    height: 394px;
+    position: relative;
+    top: 30px;
+    left: 50px;}
+
+
+.timeing_box img {
+    width: 5%;
+    position: relative;
+    left: 15px;
+    top: 20px;
+
+}
+
+.timeing_box span {
+    position: relative;
+    left: 40px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.dropdown {
+    width: 260px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 15%;
+    margin: 5%;
+}
+.dropdown.dn1{
+    position: relative;
+    top: 8px;
+    left: 45px;
+}
+.dropdown.dn2{
+    position: relative;
+    top: 15px;
+    left: 68px;
+}
+.dropdown.dn3{
+    position: relative;
+    top: 8px;
+    left: 84px;
+}
+.dropdown.dn4{
+    position: relative;
+    top: 8px;
+    left: 70px;
+}
+.good_morning{
+    background: rgb(117, 23, 205);
+    position: relative;
+    top: 10px;
+    left: 50px;
+    color: white;
+    height: 80px;
+    border-radius: 10px;
+    width: 90%;
+}
+.good_morning p{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'Island Moments', cursive;
+    padding: 18px;
+}
+.set_alarm{
+    width: 45%;
+    background: linear-gradient(to right, rgb(250, 93, 250), pink);
+    position: relative;
+    left: 50px;
+    color: white;
+    height: 40px;
+    border-radius: 5px;    
+}
+.set_alarm p{
+    font-size: 19px;
+    padding-top: 9px;
+    text-align: center;
+}
+.message_box2 {
+    width: 224px;
+    height: 45px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 18px;
+    position: relative;
+    left: -2%;
+    top: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+.last_box{
+    width: 40%;
+    float: right;
+    height: 100px;
+    background-color: violet;
+    border: 2px none;
+    border-radius: 15px;
+    padding-left: 11px;
+    font-size: 18px;
+    position: relative;
+    right: 2%;
+    top: -95px;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.box{
+    width: 45%;
+    height: 50px;
+    border: 2px none;
+}
+
+.timer{
+    width: 80%;
+    background-color: white;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+ .time{
+    width: 80px;
+    margin-left: 2px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    color: #9f0a9f;
+}
+.time_limit{
+    width: 80px;
+    margin-left: 2px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    background-color: #ebcdf1;
+    color: #9f0a9f;
+}
+.timer_am{
+    width: 80px;
+    margin-left: 2px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    background-color: rgb(70, 15, 221); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(60, 9, 199), #dd56f8);
+    color: #fff;
+}
+.timer_dot{
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.right_2box{
+    width: 80%;
+    background-color: white;
+    height: 65px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    line-height: 63px;
+}
+.right_3box img{
+    width: 80%;
+    margin-top: 5px;
+    border-radius: 10px;
+    left: 0px;
+}
